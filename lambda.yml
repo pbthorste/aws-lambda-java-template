@@ -1,0 +1,7 @@
+lambda:
+  function_name: aws-lambda-java-example
+  description: java hello world
+  handler: com.example.lambda.Handler
+  runtime: java
+  # TODO: Fix the account number, and create the role
+  role: arn:aws:iam::<account number>:role/basic-lambda-role
