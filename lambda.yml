@@ -4,4 +4,4 @@ lambda:
   handler: com.example.lambda.Handler
   runtime: java8
   # TODO: Fix the account number, and create the role
-  role: arn:aws:iam::<account number>:role/basic-lambda-role
+  role: arn:aws:iam::<fix me>:role/basic-lambda-role
